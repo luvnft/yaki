@@ -562,7 +562,7 @@ export default function NostrHome() {
   return (
     <div style={{ overflow: "auto" }}>
       <Helmet>
-        <title>Yakihonne | Home</title>
+        <title>Social.atl5d | Home</title>
       </Helmet>
       <SidebarNOSTR />
       <main className="main-page-nostr-container">

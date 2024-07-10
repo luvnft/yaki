@@ -186,7 +186,7 @@ export default function NostrWriting() {
       )}
       <div>
         <Helmet>
-          <title>Yakihonne | Write an article</title>
+          <title>Social.atl5d | Write an article</title>
         </Helmet>
         <SidebarNOSTR />
         <main className="main-page-nostr-container">

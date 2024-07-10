@@ -354,7 +354,7 @@ export default function NostrSettings() {
       )}
       <div>
         <Helmet>
-          <title>Yakihonne | Settings</title>
+          <title>Social.atl5d | Settings</title>
         </Helmet>
         <SidebarNOSTR />
         <main

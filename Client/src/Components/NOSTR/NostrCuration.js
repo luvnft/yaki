@@ -375,16 +375,16 @@ export default function NostrCuration() {
     <>
       <div>
         <Helmet>
-          <title>Yakihonne | {curationDet.title}</title>
+          <title>Social.atl5d | {curationDet.title}</title>
           <meta name="description" content={curationDet.excerpt} />
           <meta property="og:description" content={curationDet.excerpt} />
           <meta property="og:image" content={curationDet.thumbnail} />
           <meta
             property="og:url"
-            content={`https://yakihonne.com/curations/${id}`}
+            content={`https://social.atl5d.com/curations/${id}`}
           />
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Yakihonne" />
+          <meta property="og:site_name" content="Social.atl5d" />
           <meta property="og:title" content={curationDet.title} />
           <meta property="twitter:title" content={curationDet.title} />
           <meta property="twitter:description" content={curationDet.excerpt} />

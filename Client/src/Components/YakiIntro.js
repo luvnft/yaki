@@ -101,7 +101,7 @@ const Banner = ({ exit }) => {
             style={{ filter: "brightness(0) invert()" }}
           ></div>
           <p className="white-c p-centered" style={{ maxWidth: "400px" }}>
-            YakiHonne is a Nostr-based decentralized content media protocol,
+            Social.atl5d.com is a Nostr-based decentralized content media protocol,
             which supports free curation, creation, publishing, and reporting by
             various media.
           </p>

@@ -152,7 +152,7 @@ export default function NostrMyCurations() {
       )}
       <div>
       <Helmet>
-        <title>Yakihonne | My curations</title>
+        <title>Social.atl5d | My curations</title>
       </Helmet>
         <SidebarNOSTR />
         <main

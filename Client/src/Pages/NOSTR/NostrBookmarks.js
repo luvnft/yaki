@@ -125,7 +125,7 @@ export default function NostrBookmarks() {
   return (
     <div>
       <Helmet>
-        <title>Yakihonne | Bookmarks</title>
+        <title>Social.atl5d | Bookmarks</title>
       </Helmet>
       <SidebarNOSTR />
       <main className="main-page-nostr-container">

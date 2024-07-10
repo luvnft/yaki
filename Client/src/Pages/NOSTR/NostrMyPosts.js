@@ -139,7 +139,7 @@ export default function NostrMyPosts() {
 
       <div>
         <Helmet>
-          <title>Yakihonne | My articles</title>
+          <title>Social.atl5d | My articles</title>
         </Helmet>
         <SidebarNOSTR />
         <main

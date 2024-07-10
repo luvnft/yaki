@@ -158,7 +158,7 @@ export default function NostrCurations() {
   return (
     <div>
       <Helmet>
-        <title>Yakihonne | Curations</title>
+        <title>Social.atl5d | Curations</title>
       </Helmet>
       <SidebarNOSTR />
       <main className="main-page-nostr-container">

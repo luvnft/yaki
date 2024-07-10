@@ -291,23 +291,23 @@ export default function NostrUser() {
       )}
       <div>
         <Helmet>
-          <title>Yakihonne | {user.name || "<Anonymous>"}</title>
+          <title>Social.atl5d | {user.name || "<Anonymous>"}</title>
           <meta name="description" content={user.about} />
           <meta property="og:description" content={user.about} />
           <meta property="og:image" content={user.img} />
           <meta
             property="og:url"
-            content={`https://yakihonne.com/user/${user_id}`}
+            content={`https://social.atl5d.com/user/${user_id}`}
           />
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Yakihonne" />
+          <meta property="og:site_name" content="Social.atl5d" />
           <meta
             property="og:title"
-            content={`Yakihonne | ${user.name || "<Anonymous>"}`}
+            content={`Social.atl5d | ${user.name || "<Anonymous>"}`}
           />
           <meta
             property="twitter:title"
-            content={`Yakihonne | ${user.name || "<Anonymous>"}`}
+            content={`Social.atl5d | ${user.name || "<Anonymous>"}`}
           />
           <meta property="twitter:description" content={user.about} />
           <meta property="twitter:image" content={user.img} />

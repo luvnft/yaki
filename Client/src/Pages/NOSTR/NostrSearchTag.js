@@ -83,7 +83,7 @@ export default function NostrSearchTag() {
   return (
     <div>
        <Helmet>
-        <title>Yakihonne | #{tag}</title>
+        <title>Social.atl5d | #{tag}</title>
       </Helmet>
       <SidebarNOSTR />
       <main className="main-page-nostr-container">

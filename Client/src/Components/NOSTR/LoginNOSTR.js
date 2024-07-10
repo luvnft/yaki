@@ -222,7 +222,7 @@ export default function LoginNOSTR({ exit }) {
               className="fx-centered fx-col box-pad-h"
               style={{ height: "30vh", zIndex: 1, position: "relative" }}
             >
-              <h3 className="white-c p-centered">Welcome to Yakihonne</h3>
+              <h3 className="white-c p-centered">Welcome to social.atl5d</h3>
               <p className="gray-c p-centered p-big box-pad-v-m">
                 Enjoy the experience of owning your own data!
               </p>

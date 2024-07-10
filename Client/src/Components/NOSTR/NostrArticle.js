@@ -331,16 +331,16 @@ export default function NostrArticle() {
   return (
     <div>
       <Helmet>
-        <title>Yakihonne | {post.title}</title>
+        <title>Social.atl5d | {post.title}</title>
         <meta name="description" content={post.description} />
         <meta property="og:description" content={post.description} />
         <meta property="og:image" content={post.thumbnail} />
         <meta
           property="og:url"
-          content={`https://yakihonne.com/article/${id}`}
+          content={`https://social.atl5d.com/article/${id}`}
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Yakihonne" />
+        <meta property="og:site_name" content="Social.atl5d.com" />
         <meta property="og:title" content={post.title} />
         <meta property="twitter:title" content={post.title} />
         <meta property="twitter:description" content={post.description} />
