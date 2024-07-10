@@ -36,7 +36,7 @@ export default function YakiIntro() {
               className="fx-centered pointer sc-s box-pad-h box-pad-v-m "
               onClick={() => setSwipe(!swipe)}
             >
-              <div>Hey 👋🏻 Check me!</div>
+              <div>Peace ✌🏼 ATLiens!</div>
             </div>
           </div>
         )}
@@ -101,16 +101,16 @@ const Banner = ({ exit }) => {
             style={{ filter: "brightness(0) invert()" }}
           ></div>
           <p className="white-c p-centered" style={{ maxWidth: "400px" }}>
-            Social.atl5d.com is a Nostr-based decentralized content media protocol,
-            which supports free curation, creation, publishing, and reporting by
-            various media.
+            Social.atl5d.com uses Nostr to create a social media platform that is
+            free from censorship and gives users more control over their data. ATL5D
+            freed content creators from modern day digital slavery long story short. 
           </p>
           <div className="fit-container fx-centered box-pad-v fx-col">
             <Follow
               toFollowKey={
-                "20986fb83e775d96d188ca5c9df10ce6d613e0eb7e5768a0f0b12b37cdac21b3"
+                "83ec591d93ace7270302cd347e90c78da2a9746d026feb8edec477f082ce449e"
               }
-              toFollowName={"Yakihonne"}
+              toFollowName={"Wizard of Hahz"}
             />
             {/* <button className="btn btn-normal">Read about us</button> */}
           </div>
