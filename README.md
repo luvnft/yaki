@@ -1,59 +1,41 @@
-# What is YakiHonne?
+# 🌱 YakiHonne — Early Prototype (Pre-ReactJS Version)
 
-YakiHonne is the 1st Fully Decentralized Social Network on Bitcoin. Connecting 160+ countries globally, YakiHonne attracts 50K+ active Bitcoiners. Check it out at [yakihonne.com](https://yakihonne.com)
+This repository contains one of the **earliest prototypes of YakiHonne**,  
+developed during the project’s **initial exploration into the Nostr protocol**.  
 
-Currently, YakiHonne is partnering with BITMAIN, Bitcoin Magazine, and 30+ programs in BTC ecosystems, and even non-BTC programs. YakiHonne received grants/ supports from Gitcoin, Nostr, DoraHacks etc..
+It served as a foundation for experimenting with decentralized publishing,  
+event relays, and early user-interface concepts that later evolved into  
+the full YakiHonne platform.
 
-YakiHonne also runs its own relays under [nostr-01.yakihonne.com](https://nostr-01.yakihonne.com) and [nostr-02.yakihonne.com](https://nostr-02.yakihonne.com) for creators to publish their content, it is free of charge (atm). The relay is based on [strfry](https://github.com/hoytech/strfry) and written in cpp if you would like to check it out.
+---
 
-# 1. Features
+## ⚙️ Overview
 
-## 1.1 Cient
+- **Stage:** Pre-ReactJS experimental version  
+- **Purpose:** First integration attempts with the Nostr ecosystem  
+- **Focus:** Core relay communication, event structure, and minimal UI prototypes  
 
-- [x] Login options support: keys, wallet, on-the-go account creation (NIP-01, NIP-07)
-- [x] Bech32 encoding support (NIP-19)
-- [x] Global Feed based on user all relays
-- [x] Custom Feed based on user following
-- [x] Top creators list based on all relays/selected relay
-- [x] Top curators list based on nostr-01.yaihonne.com relay
-- [x] Latest discussed topics based on hashtags
-- [x] Home carousel containing latest published curations
-- [x] Curations: topic-related curated articles (NIP-51)
-- [x] My curations, My articles sections as a space for creators to manage and organize their content
-- [x] Rich markdown editor to write and preview long-form content (NIP-23)
-- [x] The ability to draft/edit/delete articles (NIP-09, NIP-23)
-- [x] Topic-related search using hashtags (NIP-12)
-- [x] Users search using pubkeys
-- [x] Built-in upload for user profile images and banners within nostr-01.yakikhonne.com
-- [x] User profile page: following/followers/zapping/published articles
-- [x] URI scheme support (currenly only naddr) (NIP-21)
-- [x] Users follow/unfollow (NIP-02)
-- [x] Lightning zaps: via QR codes or dedicted wallet (NIP-57)
-- [x] Customizable user settings: Keypair, Lightning Addres, relay list
-- [x] Relay list metadata support (NIP-65)
+---
 
-## 1.2 Relay
+## 📦 Status
 
-[nostr-01.yakihonne.com](https://nostr-01.yakihonne.com) and [nostr-02.yakihonne.com](https://nostr-02.yakihonne.com) relay is fully based on [strfry](https://github.com/hoytech/strfry) implementation and writted in Typescript.
+- **Archived:** This version is no longer maintained.  
+- **Historical Value:** Retained for documentation, research, and transparency.  
+- **Successors:**  
+  - Next version → *YakiHonne (NextJS Version)*  
+  - Current platform → *YakiHonne Multi-Platform App (Web / iOS / Android / macOS / iPadOS)*  
 
-# Run YakiHonne locally
+---
 
-- Clone the repository: `https://github.com/YakiHonne/yakihonne-web-app.git`
-- Navigate to the main directory: `cd client`
-- Install dependencies: `npm install`
-- Run the app: `npm start`
+## 🕰️ Legacy
 
-# Run docker
-For those who want to self-host, use the Dockerfile from the repository. Run commands in terminal:
-- run: `docker build -t yakihonne-web-app .`
-- and run: `docker run -p 3200:3200 yakihonne-web-app -d`
-- access in the browser http://localhost:3200
+This early prototype marked the **beginning of YakiHonne’s journey** —  
+from a simple Nostr client experiment to a multi-platform ecosystem  
+for creators, curators, and communities.
 
-## OR
+---
 
-# Run docker compose
-Use the docker-compose.yml file from the repository and run:
+## 🪶 License
 
-- Download the Dockerfile and docker-compose.yml, place them in the same directory.
-- run: `docker-compose up --build -d` or `docker compose up --build -d`
-- access in the browser http://localhost:3200
+This repository remains **public for historical and reference purposes only**.  
+Please do **not** use or redistribute this version in production environments.
