@@ -1,3 +1,9 @@
+> ⚠️ **Archived Repository**  
+> This repository has been **archived** and is **no longer maintained**.  
+> The latest version of the **YakiHonne Web App** is now actively developed at  
+> 👉 [https://github.com/YakiHonne/web-app](https://github.com/YakiHonne/web-app)  
+> Please visit the new repository for the most recent updates, fixes, and features.
+
 # 🌱 YakiHonne — Early Prototype (Pre-ReactJS Version)
 
 This repository contains one of the **earliest prototypes of YakiHonne**,  
